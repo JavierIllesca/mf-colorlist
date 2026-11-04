@@ -30,7 +30,7 @@ export default defineConfig({
     // You need to set a unique value that is not equal to other applications
     uniqueName: "mf_colorlist",
     // publicPath must be configured if using manifest
-    publicPath: "http://localhost:3002/",
+    publicPath: "https://mf-colorlist-tool.netlify.app/",
   },
 
   experiments: {
