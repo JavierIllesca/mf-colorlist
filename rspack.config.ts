@@ -29,7 +29,7 @@ export default defineConfig((_, argv) => {
     output: {
       uniqueName: "mf_colorlist",
       publicPath: argv.mode === "development" 
-        ? "https://localhost:3002"
+        ? "http://localhost:3002"
         : "https://mf-colorlist-tool.netlify.app/",
     },
 
